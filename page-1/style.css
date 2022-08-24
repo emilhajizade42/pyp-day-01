@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 64px;
+    background-color: #000;
+}
+
+main {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 20px auto;
+}
+
+main>div {
+    height: 250px;
+    width: 30%;
+    border-radius: 10px;
+    background-color: rgb(173, 173, 173);
+}
+
+footer {
+    height: 64px;
+    width: 90%;
+    background-color: orchid;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
