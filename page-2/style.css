@@ -1,48 +1,66 @@
-*{
+* {
     box-sizing: border-box;
 }
-.container{
+
+.container {
     width: 80%;
     margin: 0 auto;
 }
-header>div{
+
+header>div {
     text-align: center;
     background-color: rgb(177, 174, 174);
     padding: 30px 20px;
 }
-header h1{
+
+header h1 {
     font-size: 38px;
     font-weight: bold;
+    margin-bottom: 16px;
 }
-header p{
+
+header p {
     font-size: 22px;
     font-weight: bold;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-nav>ul{
+
+nav>ul {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    height: 34px;
     width: 80%;
     list-style: none;
     font-size: 15px;
 }
-section{
+
+section {
     border: 1px solid black;
     margin-bottom: 20px;
-    padding: 15px 20px;
+    padding: 15px 30px;
 }
-section >h2{
-    font-size: 16px;
+
+section>h2 {
+    font-weight: bold;
+    font-size: 20px;
 }
-section >h4{
-    font-size: 14px;
+
+section>h4 {
+    font-weight: bold;
+    font-size: 18px;
     margin: 14px 0;
 }
-section li{
-    font-size: 12px;
-    font-weight: bold;
+section ul {
+    list-style: disc;
+   
+}
+section li {
+    font-size: 16px;
+   
 }
